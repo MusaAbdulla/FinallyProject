@@ -13,7 +13,7 @@ namespace TourismRserve.DAL.Configurations.ReservationConf
     {
         public void Configure(EntityTypeBuilder<Reservation> builder)
         {
-           throw new NotImplementedException();
+          
         }
     }
 }

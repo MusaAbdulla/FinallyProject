@@ -4027,11 +4027,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sheki-Komp\\source\\repos\\TourismRserve.DAL\\TourismRserve.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\TourismRserve.DAL.csproj",
       "projectName": "TourismRserve.DAL",
-      "projectPath": "C:\\Users\\Sheki-Komp\\source\\repos\\TourismRserve.DAL\\TourismRserve.DAL.csproj",
+      "projectPath": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\TourismRserve.DAL.csproj",
       "packagesPath": "C:\\Users\\Sheki-Komp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sheki-Komp\\source\\repos\\TourismRserve.DAL\\obj\\",
+      "outputPath": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sheki-Komp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4049,8 +4049,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Sheki-Komp\\source\\repos\\TourismReserve.Core\\TourismReserve.Core.csproj": {
-              "projectPath": "C:\\Users\\Sheki-Komp\\source\\repos\\TourismReserve.Core\\TourismReserve.Core.csproj"
+            "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\TourismReserve.Core.csproj": {
+              "projectPath": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\TourismReserve.Core.csproj"
             }
           }
         }

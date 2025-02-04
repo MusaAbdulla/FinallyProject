@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sheki-Komp\\source\\repos\\TourismReserve.Core\\TourismReserve.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\TourismReserve.Core.csproj",
       "projectName": "TourismReserve.Core",
-      "projectPath": "C:\\Users\\Sheki-Komp\\source\\repos\\TourismReserve.Core\\TourismReserve.Core.csproj",
+      "projectPath": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\TourismReserve.Core.csproj",
       "packagesPath": "C:\\Users\\Sheki-Komp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sheki-Komp\\source\\repos\\TourismReserve.Core\\obj\\",
+      "outputPath": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sheki-Komp\\AppData\\Roaming\\NuGet\\NuGet.Config",

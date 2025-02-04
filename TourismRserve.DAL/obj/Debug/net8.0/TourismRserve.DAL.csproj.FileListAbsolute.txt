@@ -15,3 +15,21 @@ C:\Users\Sheki-Komp\source\repos\TourismRserve.DAL\obj\Debug\net8.0\refint\Touri
 C:\Users\Sheki-Komp\source\repos\TourismRserve.DAL\obj\Debug\net8.0\TourismRserve.DAL.pdb
 C:\Users\Sheki-Komp\source\repos\TourismRserve.DAL\obj\Debug\net8.0\TourismRserve.DAL.genruntimeconfig.cache
 C:\Users\Sheki-Komp\source\repos\TourismRserve.DAL\obj\Debug\net8.0\ref\TourismRserve.DAL.dll
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\obj\Debug\net8.0\TourismRserve.DAL.csproj.AssemblyReference.cache
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\obj\Debug\net8.0\TourismRserve.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\obj\Debug\net8.0\TourismRserve.DAL.AssemblyInfoInputs.cache
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\obj\Debug\net8.0\TourismRserve.DAL.AssemblyInfo.cs
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\obj\Debug\net8.0\TourismRserve.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\obj\Debug\net8.0\TourismRserve.DAL.sourcelink.json
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\obj\Debug\net8.0\TourismRserve.DAL.dll
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\obj\Debug\net8.0\refint\TourismRserve.DAL.dll
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\obj\Debug\net8.0\TourismRserve.DAL.pdb
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\bin\Debug\net8.0\TourismRserve.DAL.deps.json
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\bin\Debug\net8.0\TourismRserve.DAL.runtimeconfig.json
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\bin\Debug\net8.0\TourismRserve.DAL.dll
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\bin\Debug\net8.0\TourismRserve.DAL.pdb
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\bin\Debug\net8.0\TourismReserve.Core.dll
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\bin\Debug\net8.0\TourismReserve.Core.pdb
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\obj\Debug\net8.0\TourismR.D2B16AB1.Up2Date
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\obj\Debug\net8.0\TourismRserve.DAL.genruntimeconfig.cache
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismRserve.DAL\obj\Debug\net8.0\ref\TourismRserve.DAL.dll

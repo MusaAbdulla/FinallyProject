@@ -6,8 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using TourismReserve.Core.Models.Commons;
-using TourismReserve.Core.Models.Country;
-using TourismReserve.Core.Models.TourPackage;
+
 
 namespace TourismRserve.DAL.Context
 {
