@@ -7,11 +7,11 @@ using System.Text;
 using System.Threading.Tasks;
 using TourismReserve.Core.Models.Commons;
 
-namespace TourismRserve.DAL.Configurations.ReservationConf
+namespace TourismRserve.DAL.Configurations.SlideConf
 {
-    public class ReservationConfigurations : IEntityTypeConfiguration<Reservation>
+    public class SlideConfigurations : IEntityTypeConfiguration<Slide>
     {
-        public void Configure(EntityTypeBuilder<Reservation> builder)
+        public void Configure(EntityTypeBuilder<Slide> builder)
         {
         }
     }

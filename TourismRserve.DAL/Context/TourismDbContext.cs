@@ -15,6 +15,7 @@ namespace TourismRserve.DAL.Context
         public TourismDbContext(DbContextOptions options) : base(options)
         {
         }
+        public DbSet<Slide> Slides { get; set; }
         public DbSet<TourPackage> TourPackages { get; set; }
         public DbSet<Reservation> Reservations { get; set; }
         public DbSet<Country> Countries { get; set; }
