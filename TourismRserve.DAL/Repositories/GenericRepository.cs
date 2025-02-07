@@ -25,11 +25,9 @@ namespace TourismRserve.DAL.Repositories
 
         public async Task DeleteAsync(int id)
         => await Table.Where(x=> x.Id==id).ExecuteDeleteAsync();
-        
 
-        public async Task<IEnumerable<U>> GetAllAsync<U>(Expression<Func<T, U>> select)
-        =>await Table.Select(select).ToListAsync();
-        
+        public IQueryable<T> GetAll()
+        =>Table.AsQueryable();
 
         public async Task<T?> GetByIdAsync(int id)
         => await Table.FindAsync(id);

@@ -21,3 +21,4 @@ C:\Users\Sheki-Komp\Desktop\Finally Project\TourismReserve.Core\obj\Debug\net8.0
 C:\Users\Sheki-Komp\Desktop\Finally Project\TourismReserve.Core\obj\Debug\net8.0\refint\TourismReserve.Core.dll
 C:\Users\Sheki-Komp\Desktop\Finally Project\TourismReserve.Core\obj\Debug\net8.0\TourismReserve.Core.pdb
 C:\Users\Sheki-Komp\Desktop\Finally Project\TourismReserve.Core\obj\Debug\net8.0\ref\TourismReserve.Core.dll
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismReserve.Core\obj\Debug\net8.0\TourismReserve.Core.csproj.AssemblyReference.cache

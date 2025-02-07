@@ -10,7 +10,7 @@ namespace TourismReserve.Core.Repositories
 {
     public interface IGenericRepository<T> where T :BaseEntity , new()
     {
-        Task<IEnumerable<U>> GetAllAsync<U>(Expression<Func<T, U>> select);
+        IQueryable<T> GetAll();
         Task<T?> GetByIdAsync(int id);
         IQueryable<T> GetWhere(Expression<Func<T, bool>> expression);
         Task AddAsync(T entity);

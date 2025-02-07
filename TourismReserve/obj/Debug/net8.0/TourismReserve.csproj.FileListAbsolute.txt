@@ -413,3 +413,4 @@ C:\Users\Sheki-Komp\Desktop\Finally Project\TourismReserve\bin\Debug\net8.0\runt
 C:\Users\Sheki-Komp\Desktop\Finally Project\TourismReserve\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\Sheki-Komp\Desktop\Finally Project\TourismReserve\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Sheki-Komp\Desktop\Finally Project\TourismReserve\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Sheki-Komp\Desktop\Finally Project\TourismReserve\bin\Debug\net8.0\AutoMapper.dll

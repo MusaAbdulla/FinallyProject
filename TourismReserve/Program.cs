@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using TourismReserve.BL;
+using TourismRserve.DAL;
 using TourismRserve.DAL.Context;
 
 namespace TourismReserve
@@ -15,6 +17,9 @@ namespace TourismReserve
             {
                 opt.UseSqlServer(builder.Configuration.GetConnectionString("MSsql"));
             });
+            builder.Services.AddRepositories();
+            builder.Services.AddService();
+            builder.Services.AddAutoMapper();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
