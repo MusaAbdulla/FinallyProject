@@ -11,7 +11,7 @@ namespace TourismReserve.BL.Services.Interfaces
     {
         Task<IEnumerable<CountryGetVM>> GetAsync();
         Task CreateAsync(CountryCreateVM vm);
-        Task UpdateAsync(CountryUpdateVM vm);
+        Task UpdateAsync(CountryUpdateVM vm,int id);
         Task Delete(int id);    
     }
 }

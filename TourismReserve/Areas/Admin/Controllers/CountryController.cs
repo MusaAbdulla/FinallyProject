@@ -21,6 +21,17 @@ namespace TourismReserve.Areas.Admin.Controllers
             await _service.CreateAsync(vm);
             return RedirectToAction("Index");
         }
+        public IActionResult Update(int? id)
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> Update(int id,CountryUpdateVM vm)
+        {
+            if(!ModelState.IsValid) return View();
+            await _service.UpdateAsync(vm,id);
+            return RedirectToAction("Index");
+        }
         public async Task<IActionResult>Delete(int id)
         {
             await _service.Delete(id);

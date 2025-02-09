@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,9 +34,15 @@ namespace TourismReserve.BL.Services.Implements
             return datas;
         }
 
-        public Task UpdateAsync(CountryUpdateVM vm)
+        public async Task UpdateAsync(CountryUpdateVM vm,int id)
         {
-            throw new NotImplementedException();
+            var data = await _repo.GetByIdAsync(id);
+            if (data != null)
+            {
+                _mapper.Map(vm, data);
+                _repo.Update(data);
+                await _repo.SaveAsync();
+            }
         }
     }
 }
