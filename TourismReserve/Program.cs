@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TourismReserve.BL;
+using TourismReserve.Core.Models.Commons;
 using TourismRserve.DAL;
 using TourismRserve.DAL.Context;
 
@@ -13,6 +15,25 @@ namespace TourismReserve
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddIdentity<User, IdentityRole>(opt =>
+            {
+                opt.User.RequireUniqueEmail = true;
+                opt.Password.RequireUppercase = true;
+
+                opt.Password.RequireLowercase = true;
+                opt.Password.RequiredLength = 8;
+                opt.Password.RequireDigit = true;
+                opt.Lockout.MaxFailedAccessAttempts = 1;
+
+                opt.Password.RequireLowercase = true;
+                opt.Password.RequiredLength = 8;
+                opt.Password.RequireDigit = true;
+                opt.Lockout.MaxFailedAccessAttempts = 1;
+
+                opt.Password.RequireNonAlphanumeric = true;
+                opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(1);
+
+            }).AddDefaultTokenProviders().AddEntityFrameworkStores<TourismDbContext>();
             builder.Services.AddDbContext<TourismDbContext>(opt=>
             {
                 opt.UseSqlServer(builder.Configuration.GetConnectionString("MSsql"));

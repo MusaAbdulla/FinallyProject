@@ -177,9 +177,18 @@
                                             <div class="register">
                                                 <ul class="flex align-center">
                                                     <li>
-                                                        <a href="login.html" class="flex-three">
-                                                           <img src="~/assets/images/page/avata.jpg" alt="image">
-                                                        </a>
+                                                        @if (!Context.User.Identity.IsAuthenticated)
+                                                        {
+                                                            <a class="flex-three" asp-action="Login" asp-controller="Auth">
+                                                                <img src="~/assets/images/page/avata.jpg" alt="image">
+                                                            </a>
+                                                        }
+                                                        else
+                                                        {
+                                                            <a class="flex-three" asp-action="Register" asp-controller="Auth">
+                                                                <img src="~/assets/images/page/avata.jpg" alt="image">
+                                                            </a>
+                                                        }
                                                     </li>
                                                 </ul>
                                             </div>

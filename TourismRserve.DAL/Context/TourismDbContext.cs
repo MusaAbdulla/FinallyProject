@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ using TourismReserve.Core.Models.Commons;
 
 namespace TourismRserve.DAL.Context
 {
-    public class TourismDbContext : DbContext
+    public class TourismDbContext :IdentityDbContext<User>
     {
         public TourismDbContext(DbContextOptions options) : base(options)
         {
