@@ -11,6 +11,6 @@ namespace TourismReserve.BL.ViewModels.SlideVM
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public IFormFile Image { get; set; }
+        public string Image { get; set; }
     }
 }

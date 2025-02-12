@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using TourismReserve.BL.Extensions;
@@ -91,6 +92,13 @@ namespace TourismReserve.Controllers
             }
             return RedirectToAction("Index", "Home");
           
+        }
+        [Authorize]
+        public async Task<IActionResult> Logout()
+        {
+            await _signinManger.SignOutAsync();
+
+            return RedirectToAction("Index","Home");
         }
     }
 }

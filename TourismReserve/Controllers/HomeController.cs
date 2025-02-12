@@ -1,14 +1,26 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
+using TourismReserve.BL.ViewModels.Commons;
+using TourismReserve.BL.ViewModels.SlideVM;
+using TourismRserve.DAL.Context;
 
 namespace TourismReserve.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController(TourismDbContext _context) : Controller
     {
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            HomeVM vm= new HomeVM();
+            vm.Sliders=await _context.Slides
+                .Where(x => !x.IsDeleted)
+                .Select(x => new SlideGetVM
+                {
+                 Image=x.ImageUrl,
+
+                }).ToListAsync();
+            return View(vm);
         }
         public IActionResult MyProfile()
         {
