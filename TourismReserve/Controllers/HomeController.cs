@@ -10,6 +10,9 @@ namespace TourismReserve.Controllers
         {
             return View();
         }
-
+        public IActionResult MyProfile()
+        {
+            return View();
+        }
     }
 }

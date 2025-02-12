@@ -15297,6 +15297,34 @@
       "PackagePath": "staticwebassets\\assets\\images\\travel-list\\my-list6.jpg"
     },
     {
+      "Id": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\wwwroot\\imgs\\sldrs\\abz0lhrj.fls.png",
+      "PackagePath": "staticwebassets\\imgs\\sldrs\\abz0lhrj.fls.png"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\wwwroot\\imgs\\sldrs\\em0kzbn2.yec.png",
+      "PackagePath": "staticwebassets\\imgs\\sldrs\\em0kzbn2.yec.png"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\wwwroot\\imgs\\sldrs\\f2hwmkxw.qt3.png",
+      "PackagePath": "staticwebassets\\imgs\\sldrs\\f2hwmkxw.qt3.png"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\wwwroot\\imgs\\sldrs\\f5ubcecq.yrb.jpg",
+      "PackagePath": "staticwebassets\\imgs\\sldrs\\f5ubcecq.yrb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\wwwroot\\imgs\\sldrs\\iti24leh.fzh.jpeg",
+      "PackagePath": "staticwebassets\\imgs\\sldrs\\iti24leh.fzh.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\wwwroot\\imgs\\sldrs\\lotldwjt.c5a.png",
+      "PackagePath": "staticwebassets\\imgs\\sldrs\\lotldwjt.c5a.png"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\wwwroot\\imgs\\sldrs\\lpue4wqq.lvy.jpeg",
+      "PackagePath": "staticwebassets\\imgs\\sldrs\\lpue4wqq.lvy.jpeg"
+    },
+    {
       "Id": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

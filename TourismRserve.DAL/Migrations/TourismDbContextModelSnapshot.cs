@@ -176,7 +176,7 @@ namespace TourismRserve.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Countries", (string)null);
+                    b.ToTable("Countries");
                 });
 
             modelBuilder.Entity("TourismReserve.Core.Models.Commons.Reservation", b =>
@@ -213,7 +213,7 @@ namespace TourismRserve.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Reservations", (string)null);
+                    b.ToTable("Reservations");
                 });
 
             modelBuilder.Entity("TourismReserve.Core.Models.Commons.Slide", b =>
@@ -234,12 +234,13 @@ namespace TourismRserve.DAL.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Link")
+                    b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Slides", (string)null);
+                    b.ToTable("Slides");
                 });
 
             modelBuilder.Entity("TourismReserve.Core.Models.Commons.TourPackage", b =>
@@ -306,7 +307,7 @@ namespace TourismRserve.DAL.Migrations
 
                     b.HasIndex("CountryId");
 
-                    b.ToTable("TourPackages", (string)null);
+                    b.ToTable("TourPackages");
                 });
 
             modelBuilder.Entity("TourismReserve.Core.Models.Commons.User", b =>
@@ -382,6 +383,29 @@ namespace TourismRserve.DAL.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("TourismReserve.Core.Models.Commons.UserImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Images");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
