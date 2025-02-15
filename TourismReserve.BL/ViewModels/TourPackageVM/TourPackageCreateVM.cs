@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TourismReserve.Core.Models.Commons;
 
 namespace TourismReserve.BL.ViewModels.TourPackageVM
 {
@@ -22,5 +23,24 @@ namespace TourismReserve.BL.ViewModels.TourPackageVM
         public int CostPrice { get; set; }
         public int SellPrice { get; set; }
         public int CountryId { get; set; }
+
+        public static implicit operator TourPackage(TourPackageCreateVM vm)
+        {
+            return new TourPackage
+            { 
+            CostPrice = vm.CostPrice,
+            CountryId = vm.CountryId,
+            SellPrice = vm.SellPrice,
+            Day = vm.Day,
+            Name = vm.Name,
+            Description = vm.Description,
+            Person = vm.Person,
+            DisCount = vm.DisCount,
+            ReturnTime = vm.ReturnTime,
+            DepartureTime = vm.DepartureTime,
+            Location = vm.Location,
+            };
+
+        }
     }
 }

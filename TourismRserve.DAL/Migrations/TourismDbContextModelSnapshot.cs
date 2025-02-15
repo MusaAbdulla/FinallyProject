@@ -208,10 +208,15 @@ namespace TourismRserve.DAL.Migrations
                     b.Property<int>("Time")
                         .HasColumnType("int");
 
+                    b.Property<int>("TourPackageId")
+                        .HasColumnType("int");
+
                     b.Property<int>("Youth")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("TourPackageId");
 
                     b.ToTable("Reservations");
                 });
@@ -308,6 +313,34 @@ namespace TourismRserve.DAL.Migrations
                     b.HasIndex("CountryId");
 
                     b.ToTable("TourPackages");
+                });
+
+            modelBuilder.Entity("TourismReserve.Core.Models.Commons.TourPackageImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("TourPackageId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TourPackageId");
+
+                    b.ToTable("TourPackageImage");
                 });
 
             modelBuilder.Entity("TourismReserve.Core.Models.Commons.User", b =>
@@ -459,6 +492,17 @@ namespace TourismRserve.DAL.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("TourismReserve.Core.Models.Commons.Reservation", b =>
+                {
+                    b.HasOne("TourismReserve.Core.Models.Commons.TourPackage", "Package")
+                        .WithMany("Reservations")
+                        .HasForeignKey("TourPackageId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Package");
+                });
+
             modelBuilder.Entity("TourismReserve.Core.Models.Commons.TourPackage", b =>
                 {
                     b.HasOne("TourismReserve.Core.Models.Commons.Country", "Country")
@@ -470,9 +514,27 @@ namespace TourismRserve.DAL.Migrations
                     b.Navigation("Country");
                 });
 
+            modelBuilder.Entity("TourismReserve.Core.Models.Commons.TourPackageImage", b =>
+                {
+                    b.HasOne("TourismReserve.Core.Models.Commons.TourPackage", "TourPackage")
+                        .WithMany("Images")
+                        .HasForeignKey("TourPackageId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("TourPackage");
+                });
+
             modelBuilder.Entity("TourismReserve.Core.Models.Commons.Country", b =>
                 {
                     b.Navigation("TourPackages");
+                });
+
+            modelBuilder.Entity("TourismReserve.Core.Models.Commons.TourPackage", b =>
+                {
+                    b.Navigation("Images");
+
+                    b.Navigation("Reservations");
                 });
 #pragma warning restore 612, 618
         }

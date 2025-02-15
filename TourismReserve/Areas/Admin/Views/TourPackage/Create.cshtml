@@ -1,0 +1,95 @@
+﻿@using TourismReserve.BL.ViewModels.TourPackageVM
+@model TourPackageCreateVM
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">TourPackage create</h6>
+    </div>
+    <div class="card-body">
+        <form enctype="multipart/form-data" method="post">
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <input class="form-control" asp-for="Name">
+                <span class="text-danger" asp-validation-for="Name"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description"></label>
+                <textarea class="form-control" asp-for="Description"></textarea>
+                <span class="text-danger" asp-validation-for="Description"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Location"></label>
+                <textarea class="form-control" asp-for="Location"></textarea>
+                <span class="text-danger" asp-validation-for="Location"></span>
+            </div>
+            <div class="form-group">
+                <div class="col">
+                    <label asp-for="DepartureTime">Departure Time</label>
+                    <input class="time-picker" asp-for="DepartureTime">
+                    <span class="text-danger" asp-validation-for="DepartureTime"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col">
+                    <label asp-for="ReturnTime">Return Time</label>
+                    <input class="time-picker" asp-for="ReturnTime">
+                    <span class="text-danger" asp-validation-for="ReturnTime"></span>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <label asp-for="CoverImage">Cover image</label>
+                    <input accept="image/*" class="form-control" asp-for="CoverImage">
+                    <span class="text-danger" asp-validation-for="CoverImage"></span>
+                </div>
+                <div class="col">
+                    <label asp-for="OtherImages">Other images</label>
+                    <input accept="image/*" class="form-control" asp-for="OtherImages">
+                    <span class="text-danger" asp-validation-for="OtherImages"></span>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col">
+                    <label asp-for="CostPrice"></label>
+                    <input class="form-control" asp-for="CostPrice">
+                    <span class="text-danger" asp-validation-for="CostPrice"></span>
+                </div>
+                <div class="col">
+                    <label asp-for="SellPrice"></label>
+                    <input class="form-control" asp-for="SellPrice">
+                    <span class="text-danger" asp-validation-for="SellPrice"></span>
+                </div>
+                <div class="col">
+                    <label asp-for="DisCount"></label>
+                    <input class="form-control" asp-for="DisCount">
+                    <span class="text-danger" asp-validation-for="DisCount"></span>
+                </div>
+                <div class="col">
+                    <label asp-for="Person"></label>
+                    <input class="form-control" asp-for="Person">
+                    <span class="text-danger" asp-validation-for="Person"></span>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <label asp-for="Day"></label>
+                    <input class="form-control" asp-for="Day">
+                    <span class="text-danger" asp-validation-for="Day"></span>
+                </div>
+                <div class="col">
+                    <label asp-for="CountryId">Countries</label>
+                    <select class="form-control" asp-for="CountryId" asp-items='new SelectList(ViewBag.Categories,"Id","Name")'>
+                        <option disabled selected>Select Country</option>
+                    </select>
+
+                    <span class="text-danger" asp-validation-for="CountryId"></span>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary my-2">Submit</button>
+        </form>
+    </div>
+</div>
+

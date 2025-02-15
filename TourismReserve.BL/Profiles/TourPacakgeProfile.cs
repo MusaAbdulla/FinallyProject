@@ -15,7 +15,10 @@ namespace TourismReserve.BL.Profiles
         {
             CreateMap<TourPackageCreateVM, TourPackage>()
                  .ForMember(y => y.CoverImage, z => z.Ignore())
-                 .ForMember(y => y.OtherImages, z => z.Ignore()); 
+                 .ForMember(y => y.OtherImages, z => z.Ignore());
+            CreateMap<TourPackage, TourPackageGetVM>();
+
+
         }
     }
 }

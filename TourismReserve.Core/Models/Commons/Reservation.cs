@@ -8,6 +8,8 @@ namespace TourismReserve.Core.Models.Commons
 {
     public class Reservation : BaseEntity
     {
+        public TourPackage Package { get; set; }
+        public int TourPackageId { get; set; }
         public DateTime Calendar { get; set; }
         public int Time { get; set; }
         public int Children { get; set; }

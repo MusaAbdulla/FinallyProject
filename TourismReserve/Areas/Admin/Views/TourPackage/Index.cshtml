@@ -1,0 +1,59 @@
+﻿@using TourismReserve.BL.ViewModels.TourPackageVM
+@model List<TourPackageGetVM>
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">TourPackage table</h6>
+        <a class="btn btn-primary" asp-action="Create">Yarat</a>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>CostPrice</th>
+                        <th>SellPrice</th>
+                        <th>Location</th>
+                        <th>ReturnTime</th>
+                        <th>DepartureTime</th>
+                        <th>Person</th>
+                        <th>Discount</th>
+                        <th>CountryId</th>
+                        <th>Day</th>
+                        <th colspan="3">Action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td><img src="~/imgs/products/@item.CoverImage" width="70" /></td>
+                            <td>@item.Name</td>
+                            <td>@item.Description</td>
+                            <td>@item.CostPrice</td>
+                            <td>@item.SellPrice</td>
+                            <td>@item.Location</td>
+                            <td>@item.ReturnTime</td>
+                            <td>@item.DepartureTime</td>
+                            <td>@item.Person</td>
+                            <td>@item.DisCount</td>
+                            <td>@item.CountryId</td>
+                            <td>@item.Day</td>
+                            <td><a class="btn btn-success" asp-controller="TourPackage" asp-action="Update" asp-route-id="@item.Id">Dəyiş</a></td>
+                            <td><a class="btn btn-danger" asp-controller="TourPackage" asp-action="Delete" asp-route-id="@item.Id">Sil</a></td>
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

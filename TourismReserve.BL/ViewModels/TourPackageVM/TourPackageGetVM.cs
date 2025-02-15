@@ -4,14 +4,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TourismReserve.Core.Models.Commons;
 
 namespace TourismReserve.BL.ViewModels.TourPackageVM
 {
     public class TourPackageGetVM
     {
         public int Id { get; set; }
-        public IFormFile CoverImage { get; set; }
-        public ICollection<IFormFile> OtherImages { get; set; }
+        public string CoverImage { get; set; }
+        public string OtherImages { get; set; }
         public string Location { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
@@ -22,6 +23,7 @@ namespace TourismReserve.BL.ViewModels.TourPackageVM
         public int DisCount { get; set; }
         public int CostPrice { get; set; }
         public int SellPrice { get; set; }
+        public Country Country { get; set; }
         public int CountryId { get; set; }
     }
 }
