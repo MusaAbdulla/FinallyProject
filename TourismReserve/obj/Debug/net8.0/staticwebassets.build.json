@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TAC7EB9uxNskBT1hzTDmgoNTMnLHjLS9OeIHpujFUP8=",
+  "Hash": "PN+irHkoLOL5PGfiiUk6F7KiFeGfRqKeM97I9O4ujwo=",
   "Source": "TourismReserve",
   "BasePath": "_content/TourismReserve",
   "Mode": "Default",
@@ -72937,6 +72937,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imgs\\TR\\vdzzpqqk.lbd.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\wwwroot\\imgs\\usr\\zv1amcvx.1j2.png",
+      "SourceId": "TourismReserve",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\wwwroot\\",
+      "BasePath": "_content/TourismReserve",
+      "RelativePath": "imgs/usr/zv1amcvx.1j2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\usr\\zv1amcvx.1j2.png"
     },
     {
       "Identity": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

@@ -1,4 +1,5 @@
-﻿
+﻿@using TourismReserve.BL.ViewModels.UserImageVM
+@model UserImageCreateVM
 @{
     ViewData["Title"] = "MyProfile";
 }
@@ -161,7 +162,7 @@
             <main id="main">
                 <section class="profile-dashboard">
 
-                    <form action="/" class="edit-profile">
+                    <form action="/"  class="edit-profile" enctype="multipart/form-data" method="post">
                         <div class="inner-header mb-40">
                             <h3 class="title">My Profile</h3>
                             <p class="des">There are many variations of passages of Lorem Ipsum</p>
@@ -175,9 +176,10 @@
                                         <i class="icon-delete-1"></i>
                                     </div>
                                 </div>
-                                <span class="upload">Upload a new Avatar</span>
-                                <div class="upload-file">
-                                    <input type="file">
+                                <div class="form-group">
+                                    <label asp-for="Image"></label>
+                                    <input class="form-control" asp-for="Image">
+                                    <span class="text-danger" asp-validation-for="Image"></span>
                                 </div>
                                 <p>Png, Jpg, Svg dimenson (300* 350) max file not more then size 4 mb</p>
                             </div>

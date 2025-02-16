@@ -1,33 +1,49 @@
-﻿using System;
+﻿using AutoMapper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TourismReserve.BL.Services.Interfaces;
 using TourismReserve.BL.ViewModels.SlideVM;
+using TourismReserve.BL.ViewModels.UserImageVM;
+using TourismReserve.Core.Models.Commons;
+using TourismReserve.Core.Repositories;
 
 namespace TourismReserve.BL.Services.Implements
 {
-    public class UserImageService : IUserImageService
+    public class UserImageService(IUserImageRepository _repo,IMapper _mapper) : IUserImageService
     {
-        public Task CreateAsync(SlideCreateVM vm)
+        public async Task CreateAsync(UserImageCreateVM vm)
         {
-            throw new NotImplementedException();
+            var data = _mapper.Map<UserImage>(vm);
+            data.ImageUrl = "deafult.jpg";
+            await _repo.AddAsync(data);
+            await _repo.SaveAsync();
         }
 
-        public Task Delete(int id)
+        public async Task Delete(int id)
         {
-            throw new NotImplementedException();
+            await _repo.DeleteAsync(id);
+            await _repo.SaveAsync();
         }
 
-        public Task<IEnumerable<SlideGetVM>> GetAsync()
+        public async  Task<IEnumerable<UserImageGetVM>> GetAsync()
         {
-            throw new NotImplementedException();
+            var entities = _repo.GetAll();
+            var datas = _mapper.Map<IEnumerable<UserImageGetVM>>(entities);
+            return datas;
         }
 
-        public Task UpdateAsync(SlideUpdateVM vm, int id)
+        public async  Task UpdateAsync(UserImageUpdateVM vm, int id)
         {
-            throw new NotImplementedException();
+            var data = await _repo.GetByIdAsync(id);
+            if (data != null)
+            {
+                _mapper.Map(vm, data);
+                _repo.Update(data);
+                await _repo.SaveAsync();
+            }
         }
     }
 }

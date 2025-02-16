@@ -16,6 +16,7 @@ namespace TourismReserve.BL
             services.AddScoped<ICountryService, CountryService>();
             services.AddScoped<ISlideServices, SlideServices>();
             services.AddScoped<ITourPackageService, TourPacakgeService>();
+            services.AddScoped<IUserImageService, UserImageService>();
             return services;
         }
         public static IServiceCollection AddAutoMapper(this IServiceCollection services)

@@ -149,6 +149,7 @@
     <Folder Include="wwwroot\Area\assets\libs\swiper\types\modules\" />
     <Folder Include="wwwroot\Area\assets\libs\waypoints\src\" />
     <Folder Include="wwwroot\Area\assets\libs\waypoints\test\" />
+    <Folder Include="wwwroot\imgs\usr\" />
     <Folder Include="wwwroot\imgs\TR\" />
     <Folder Include="wwwroot\imgs\sldrs\" />
   </ItemGroup>
