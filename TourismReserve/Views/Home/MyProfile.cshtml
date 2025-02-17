@@ -1,4 +1,4 @@
-﻿@using TourismReserve.BL.ViewModels.UserImageVM
+﻿﻿@using TourismReserve.BL.ViewModels.UserImageVM
 @model UserImageCreateVM
 @{
     ViewData["Title"] = "MyProfile";
@@ -33,7 +33,7 @@
                         </a>
                     </li>
                     <li>
-                        <a  asp-action="Logout" asp-controller="Auth">
+                        <a asp-action="Logout" asp-controller="Auth">
                             <i class="icon-turn-off-1"></i>
                             <span>Logout</span>
                         </a>
@@ -162,7 +162,7 @@
             <main id="main">
                 <section class="profile-dashboard">
 
-                    <form action="/"  class="edit-profile" enctype="multipart/form-data" method="post">
+                    <form action="/" class="edit-profile" enctype="multipart/form-data" method="post">
                         <div class="inner-header mb-40">
                             <h3 class="title">My Profile</h3>
                             <p class="des">There are many variations of passages of Lorem Ipsum</p>
@@ -264,5 +264,4 @@
         ...
     </div>
 </div>
-
 
