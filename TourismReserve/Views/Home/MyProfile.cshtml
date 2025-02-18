@@ -162,7 +162,7 @@
             <main id="main">
                 <section class="profile-dashboard">
 
-                    <form action="/" class="edit-profile" enctype="multipart/form-data" method="post">
+                    <form asp-action="UserImage" class="edit-profile" enctype="multipart/form-data" method="post">
                         <div class="inner-header mb-40">
                             <h3 class="title">My Profile</h3>
                             <p class="des">There are many variations of passages of Lorem Ipsum</p>
@@ -178,7 +178,8 @@
                                 </div>
                                 <div class="form-group">
                                     <label asp-for="Image"></label>
-                                    <input class="form-control" asp-for="Image">
+                                    <input type="hidden" name="imageid" value="Model.Id"/>
+                                    <input  class="form-control" asp-for="Image">
                                     <span class="text-danger" asp-validation-for="Image"></span>
                                 </div>
                                 <p>Png, Jpg, Svg dimenson (300* 350) max file not more then size 4 mb</p>

@@ -1,0 +1,46 @@
+﻿@using TourismReserve.BL.ViewModels.UserImageVM
+@model UserImageCreateVM
+@{
+    ViewData["Title"] = "Details";
+}
+<main id="main">
+    <section class="profile-dashboard">
+
+        <form asp-action="UserImage" class="edit-profile" enctype="multipart/form-data" method="post">
+            <div class="inner-header mb-40">
+                <h3 class="title">My Profile</h3>
+                <p class="des">There are many variations of passages of Lorem Ipsum</p>
+            </div>
+            <div class="upload-image-dashboard flex mb-80">
+                <span class="title-avata">Avatar:</span>
+                <div class="upload-image-wrap">
+                    <div class="avata relative">
+                        <img id="frame" src="./assets/images/page/update-profile.jpg" alt="image">
+                        <div class="icon-delete">
+                            <i class="icon-delete-1"></i>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Image"></label>
+                        <input type="hidden" name="imageid" value="Model.Id" />
+                        <input class="form-control" asp-for="Image">
+                        <span class="text-danger" asp-validation-for="Image"></span>
+                    </div>
+                    <p>Png, Jpg, Svg dimenson (300* 350) max file not more then size 4 mb</p>
+                </div>
+            </div>
+            <div class="otp-dashboard">
+                <div class="flex-three">
+                    <div class="button-wrap">
+                        <button type="submit" class="save">
+                            <i class="icon-Vector-221"></i>Save
+                            changes
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+</main>
