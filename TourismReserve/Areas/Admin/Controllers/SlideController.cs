@@ -1,18 +1,20 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using TourismReserve.BL.Extensions;
 using TourismReserve.BL.Services.Interfaces;
 using TourismReserve.BL.ViewModels.CountryVM;
 using TourismReserve.BL.ViewModels.SlideVM;
+using TourismRserve.DAL.Context;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TourismReserve.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class SlideController(ISlideServices _service,IWebHostEnvironment _env) : Controller
+    public class SlideController(ISlideServices _service, TourismDbContext _context) : Controller
     {
         public async Task<IActionResult> Index()
         {
-            return View(await _service.GetAsync());
+            return View(await _context.Slides.ToListAsync());
         }
         public async Task<IActionResult> Create()
         {
@@ -36,7 +38,6 @@ namespace TourismReserve.Areas.Admin.Controllers
                     return View();
                 }
             }
-            await vm.Image.UploadAsync(_env.WebRootPath ,"imgs","sldrs");
             await _service.CreateAsync(vm);
             return RedirectToAction("Index");
         }
@@ -62,7 +63,7 @@ namespace TourismReserve.Areas.Admin.Controllers
                     return View();
                 }
             }
-            await vm.Image.UploadAsync(_env.WebRootPath, "imgs", "sldrs");
+        
             if (!ModelState.IsValid) return View();
             await _service.UpdateAsync(vm, id);
             return RedirectToAction("Index");

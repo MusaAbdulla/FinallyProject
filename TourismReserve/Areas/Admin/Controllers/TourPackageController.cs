@@ -14,7 +14,7 @@ namespace TourismReserve.Areas.Admin.Controllers
     {
         public async Task<IActionResult> Index()
         {
-            return View(await _service.GetAsync());
+            return View(await _context.TourPackages.Include(x=> x.Country).ToListAsync());
         }
         public async Task<IActionResult> Create()
         {
@@ -63,20 +63,7 @@ namespace TourismReserve.Areas.Admin.Controllers
                 ModelState.AddModelError("CountryId", "Country not found");
                 return View();
             }
-            TourPackage tourPackage= vm;
-            if(vm.OtherImages!=null)
-            {
-                tourPackage.Images = vm.OtherImages.Select(x => new TourPackageImage
-                {
-                    ImageUrl = x.UploadAsync(_env.WebRootPath, "imgs", "TR").Result
-                }).ToList();
-            }
-            
-
-            if(vm.CoverImage!=null)
-            {
-                tourPackage.CoverImage = await vm.CoverImage.UploadAsync(_env.WebRootPath, "imgs", "TR");
-            }
+          
             await _service.CreateAsync(vm);
             return RedirectToAction("Index");
         }

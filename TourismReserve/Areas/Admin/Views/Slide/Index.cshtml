@@ -1,5 +1,6 @@
-﻿@using TourismReserve.BL.ViewModels.SlideVM
-@model List<SlideGetVM>
+﻿
+@using TourismReserve.Core.Models.Commons
+@model List<Slide>
 @{
     ViewData["Title"] = "Index";
 }
@@ -26,7 +27,7 @@
                         <tr>
                             <td>@item.Id</td>
                             <td>@item.Name</td>
-                            <td><img src="~/imgs/sliders/@item.Image" width="70" /></td>
+                            <td><img src="~/imgs/sldrs/@item.ImageUrl" width="70" /></td>
                             <td><a class="btn btn-success" asp-controller="Slide" asp-action="Update" asp-route-id="@item.Id">Dəyiş</a></td>
                             <td><a class="btn btn-danger" asp-controller="Slide" asp-action="Delete" asp-route-id="@item.Id">Sil</a></td>
                         </tr>

@@ -13,9 +13,10 @@ namespace TourismReserve.BL.Profiles
     {
         public SlideProfile()
         {
-            CreateMap<SlideCreateVM, Slide>()
-                .ForMember(y => y.ImageUrl, z => z.Ignore());
+            CreateMap<SlideCreateVM, Slide>();
+
             CreateMap<Slide, SlideGetVM>();
+                 
             CreateMap<SlideUpdateVM, Slide>();
         }
     }

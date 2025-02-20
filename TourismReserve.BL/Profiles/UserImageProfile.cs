@@ -13,9 +13,12 @@ namespace TourismReserve.BL.Profiles
     {
         public UserImageProfile()
         {
-            CreateMap<UserImageCreateVM, UserImage>();
-            CreateMap<UserImageUpdateVM, UserImage>();
-            CreateMap<UserImage, UserImageGetVM>();
+            CreateMap<UserImageCreateVM, UserImage>()
+                   .ForMember(y => y.ImageUrl, z => z.Ignore());
+            CreateMap<UserImageUpdateVM, UserImage>()
+                   .ForMember(y => y.ImageUrl, z => z.Ignore());
+            CreateMap<UserImage, UserImageGetVM>()
+                   .ForMember(y => y.ImageUrl, z => z.Ignore());
         }
     }
 }

@@ -1,5 +1,6 @@
-﻿@using TourismReserve.BL.ViewModels.TourPackageVM
-@model List<TourPackageGetVM>
+﻿
+@using TourismReserve.Core.Models.Commons
+@model List<TourPackage>
 @{
     ViewData["Title"] = "Index";
 }
@@ -35,7 +36,7 @@
                     {
                         <tr>
                             <td>@item.Id</td>
-                            <td><img src="~/imgs/products/@item.CoverImage" width="70" /></td>
+                            <td><img src="~/imgs/TR/@item.CoverImage" width="70" /></td>
                             <td>@item.Name</td>
                             <td>@item.Description</td>
                             <td>@item.CostPrice</td>

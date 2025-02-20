@@ -22,7 +22,7 @@ namespace TourismReserve.Controllers
                 .Where(x => !x.IsDeleted)
                 .Select(x => new SlideGetVM
                 {
-                 Image=x.ImageUrl,
+                 ImageUrl=x.ImageUrl,
 
                 }).ToListAsync();
             return View(vm);

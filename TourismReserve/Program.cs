@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TourismReserve.BL;
+using TourismReserve.BL.Extensions;
 using TourismReserve.Core.Models.Commons;
 using TourismRserve.DAL;
 using TourismRserve.DAL.Context;
@@ -9,8 +10,15 @@ namespace TourismReserve
 {
     public class Program
     {
+        private readonly IWebHostEnvironment _env;
+
+        public Program(IWebHostEnvironment env)
+        {
+            _env = env;
+        }
         public static void Main(string[] args)
         {
+
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
@@ -41,6 +49,7 @@ namespace TourismReserve
             builder.Services.AddRepositories();
             builder.Services.AddService();
             builder.Services.AddAutoMapper();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -53,7 +62,7 @@ namespace TourismReserve
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseUserSeed();
             app.UseRouting();
 
             app.UseAuthorization();

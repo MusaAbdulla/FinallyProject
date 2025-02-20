@@ -13,12 +13,12 @@ namespace TourismReserve.BL.Profiles
     {
         public TourPacakgeProfile()
         {
-            CreateMap<TourPackageCreateVM, TourPackage>()
-                 .ForMember(y => y.CoverImage, z => z.Ignore())
-                 .ForMember(y => y.OtherImages, z => z.Ignore());
+            CreateMap<TourPackageCreateVM, TourPackage>();
+
             CreateMap<TourPackage, TourPackageGetVM>();
 
-
+            CreateMap<TourPackageUpdateVM, TourPackage>();
+                
         }
     }
 }
