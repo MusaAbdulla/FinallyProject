@@ -19,20 +19,13 @@ namespace TourismReserve.BL.Services.Implements
         public async Task CreateAsync(TourPackageCreateVM vm)
         {
             var data = _mapper.Map<TourPackage>(vm);
-            TourPackage tourPackage = vm;
-            if (vm.OtherImages != null)
-            {
-                tourPackage.Images = vm.OtherImages.Select(x => new TourPackageImage
+      
+               data.Images = vm.OtherImages.Select(x => new TourPackageImage
                 {
                     ImageUrl = x.UploadAsync(_env.WebRootPath, "imgs", "TR").Result
                 }).ToList();
-            }
-
-
-            if (vm.CoverImage != null)
-            {
-                tourPackage.CoverImage = await vm.CoverImage.UploadAsync(_env.WebRootPath, "imgs", "TR");
-            }
+                data.CoverImage = await vm.CoverImage.UploadAsync(_env.WebRootPath, "imgs", "TR");
+            
             await _repo.AddAsync(data);
             await _repo.SaveAsync();
         }
@@ -67,6 +60,11 @@ namespace TourismReserve.BL.Services.Implements
         public async Task UpdateAsync(TourPackageUpdateVM vm, int id)
         {
             var data = await _repo.GetByIdAsync(id);
+            data.Images = vm.OtherImages.Select(x => new TourPackageImage
+            {
+                ImageUrl = x.UploadAsync(_env.WebRootPath, "imgs", "TR").Result
+            }).ToList();
+            data.CoverImage = await vm.CoverImage.UploadAsync(_env.WebRootPath, "imgs", "TR");
             if (data != null)
             {
                 _mapper.Map(vm, data);

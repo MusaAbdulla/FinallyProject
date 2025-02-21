@@ -7,6 +7,7 @@ using TourismReserve.BL.Extensions;
 using TourismReserve.BL.Services.Interfaces;
 using TourismReserve.BL.ViewModels.Commons;
 using TourismReserve.BL.ViewModels.SlideVM;
+using TourismReserve.BL.ViewModels.TourPackageVM;
 using TourismReserve.BL.ViewModels.UserImageVM;
 using TourismRserve.DAL.Context;
 
@@ -25,6 +26,18 @@ namespace TourismReserve.Controllers
                  ImageUrl=x.ImageUrl,
 
                 }).ToListAsync();
+            vm.TourPackage =await _context.TourPackages.Select(x => new TourPackageGetVM
+            {
+                Id = x.Id,
+                CoverImage = x.CoverImage,
+                DisCount = x.DisCount,
+                SellPrice = x.SellPrice,
+                Name = x.Name,
+                Location = x.Location,
+                Day = x.Day,
+                Person = x.Person,
+            }
+            ).ToListAsync();
             return View(vm);
         }
         public IActionResult MyProfile()
