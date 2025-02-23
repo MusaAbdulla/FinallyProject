@@ -19,9 +19,7 @@ namespace TourismRserve.DAL.Configurations.TourPackageConf
             builder.Property(x=> x.Description)
                 .IsRequired()
                 .HasMaxLength(256);
-            builder.HasMany(X => X.Reservations)
-                .WithOne(X=> X.Package)
-                .HasForeignKey(X=> X.TourPackageId);
+           
             builder.HasMany(x => x.Images)
                 .WithOne(x => x.TourPackage)
                 .HasForeignKey(x => x.TourPackageId);

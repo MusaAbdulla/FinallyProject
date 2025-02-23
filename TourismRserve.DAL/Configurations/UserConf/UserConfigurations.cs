@@ -13,6 +13,8 @@ namespace TourismRserve.DAL.Configurations.UserConf
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
+         
+               
         }
     }
 }

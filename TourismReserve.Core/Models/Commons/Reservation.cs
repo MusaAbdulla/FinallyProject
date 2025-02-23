@@ -10,12 +10,11 @@ namespace TourismReserve.Core.Models.Commons
     {
         public TourPackage Package { get; set; }
         public int TourPackageId { get; set; }
-        public DateTime Calendar { get; set; }
-        public int Time { get; set; }
+        public string FullName  { get; set; }
+        public string Email { get; set; }
         public int Children { get; set; }
         public int Youth { get; set; }
         public int Adult { get; set; }
-        public bool Extra { get; set; }
 
     }
 }

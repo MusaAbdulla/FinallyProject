@@ -23,6 +23,7 @@ namespace TourismRserve.DAL.Context
         public DbSet<Country> Countries { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
             modelBuilder.ApplyConfigurationsFromAssembly( typeof(TourismDbContext).Assembly);
             base.OnModelCreating(modelBuilder);
         }

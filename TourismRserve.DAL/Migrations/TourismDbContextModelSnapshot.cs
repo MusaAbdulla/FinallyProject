@@ -190,23 +190,22 @@ namespace TourismRserve.DAL.Migrations
                     b.Property<int>("Adult")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("Calendar")
-                        .HasColumnType("datetime2");
-
                     b.Property<int>("Children")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<bool>("Extra")
-                        .HasColumnType("bit");
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
-
-                    b.Property<int>("Time")
-                        .HasColumnType("int");
 
                     b.Property<int>("TourPackageId")
                         .HasColumnType("int");
