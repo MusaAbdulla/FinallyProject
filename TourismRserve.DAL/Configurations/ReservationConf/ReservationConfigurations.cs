@@ -15,7 +15,7 @@ namespace TourismRserve.DAL.Configurations.ReservationConf
         public void Configure(EntityTypeBuilder<Reservation> builder)
         {
             builder
-             .HasOne(r => r.Package)
+             .HasOne(r => r.TourPackage)
              .WithMany(t => t.Reservations)
              .HasForeignKey(r => r.TourPackageId);
 

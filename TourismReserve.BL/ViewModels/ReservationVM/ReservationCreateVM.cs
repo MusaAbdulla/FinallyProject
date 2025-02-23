@@ -11,8 +11,8 @@ namespace TourismReserve.BL.ViewModels.ReservationVM
     {
         [Required, MaxLength(64)]
         public string FullName { get; set; }
-        [Required, MaxLength(128), DataType(DataType.EmailAddress), EmailAddress]
-        public string Email { get; set; }
+   
+        public string Number { get; set; }
        public int TourPackageId { get; set; }
         public int Children { get; set; }
         public int Youth { get; set; }
