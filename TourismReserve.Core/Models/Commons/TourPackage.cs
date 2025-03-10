@@ -24,5 +24,6 @@ namespace TourismReserve.Core.Models.Commons
         public int CountryId { get; set; }
         public ICollection<TourPackageImage> Images { get; set; }
         public ICollection<Reservation> Reservations { get; set; }
+        public ICollection<PackageComment> Comments { get; set; }
     }
 }

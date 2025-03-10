@@ -179,6 +179,45 @@ namespace TourismRserve.DAL.Migrations
                     b.ToTable("Countries");
                 });
 
+            modelBuilder.Entity("TourismReserve.Core.Models.Commons.PackageComment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Comment")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<DateTime>("CreatedTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int?>("PackageId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PackageId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("PackageComment");
+                });
+
             modelBuilder.Entity("TourismReserve.Core.Models.Commons.Reservation", b =>
                 {
                     b.Property<int>("Id")
@@ -491,6 +530,23 @@ namespace TourismRserve.DAL.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("TourismReserve.Core.Models.Commons.PackageComment", b =>
+                {
+                    b.HasOne("TourismReserve.Core.Models.Commons.TourPackage", "Package")
+                        .WithMany("Comments")
+                        .HasForeignKey("PackageId");
+
+                    b.HasOne("TourismReserve.Core.Models.Commons.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Package");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("TourismReserve.Core.Models.Commons.Reservation", b =>
                 {
                     b.HasOne("TourismReserve.Core.Models.Commons.TourPackage", "TourPackage")
@@ -531,6 +587,8 @@ namespace TourismRserve.DAL.Migrations
 
             modelBuilder.Entity("TourismReserve.Core.Models.Commons.TourPackage", b =>
                 {
+                    b.Navigation("Comments");
+
                     b.Navigation("Images");
 
                     b.Navigation("Reservations");

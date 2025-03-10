@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TourismReserve")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e56850f4fca6bcf8eb4b716b99a08d54c390da16")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+841e8ad02876fe077223f16b907b27aba4c7efdd")]
 [assembly: System.Reflection.AssemblyProductAttribute("TourismReserve")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TourismReserve")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
