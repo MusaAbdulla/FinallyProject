@@ -45,6 +45,7 @@ namespace TourismReserve.Controllers
             if (!id.HasValue) return BadRequest();
             var data = await _context.TourPackages
             .Include(x=> x.Images)
+            .Include(x=> x.Comments)
             .Where(x => x.Id == id.Value && !x.IsDeleted)
             .FirstOrDefaultAsync();
             if (data == null) return NotFound();
@@ -72,6 +73,32 @@ namespace TourismReserve.Controllers
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Details), new { id = packageId });
+        }
+        [Authorize]
+        [HttpPost]
+        public async Task<IActionResult> Comment(int? productId, string? comment,string userName)
+        {
+
+            if (!productId.HasValue) return BadRequest();
+            string userId = User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier)!.Value;
+            if (!await _context.TourPackages.AnyAsync(p => p.Id == productId)) return NotFound();
+
+
+
+            await _context.Comments.AddAsync(new PackageComment
+            {
+                CreatedTime = DateTime.Now,
+                IsDeleted = false,
+                UserName = userName, 
+                PackageId = productId.Value,
+                Comment = comment,
+                UserId = userId
+            });
+
+
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Details), new { id = productId });
         }
     }
 }

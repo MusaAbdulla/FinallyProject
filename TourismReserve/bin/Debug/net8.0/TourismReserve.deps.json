@@ -2005,14 +2005,7 @@
         }
       },
       "System.Numerics.Vectors/4.5.0": {},
-      "System.Reflection.Metadata/8.0.1": {
-        "runtime": {
-          "lib/net8.0/System.Reflection.Metadata.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46610"
-          }
-        }
-      },
+      "System.Reflection.Metadata/8.0.1": {},
       "System.Reflection.MetadataLoadContext/7.0.0": {
         "dependencies": {
           "System.Collections.Immutable": "7.0.0",
@@ -2141,7 +2134,7 @@
         },
         "runtime": {
           "TourismReserve.BL.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -2155,7 +2148,7 @@
         },
         "runtime": {
           "TourismReserve.Core.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -2172,7 +2165,7 @@
         },
         "runtime": {
           "TourismRserve.DAL.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

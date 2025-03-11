@@ -215,7 +215,7 @@ namespace TourismRserve.DAL.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("PackageComment");
+                    b.ToTable("Comments");
                 });
 
             modelBuilder.Entity("TourismReserve.Core.Models.Commons.Reservation", b =>

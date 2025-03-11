@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TourismReserve.bundle.scp.css",
-      "PackagePath": "staticwebassets\\TourismReserve.bundle.scp.css"
+      "PackagePath": "staticwebassets\\TourismReserve.9qz3qgoo4n.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\wwwroot\\Area\\assets\\css\\app-rtl.min.css",
@@ -15807,6 +15807,10 @@
     {
       "Id": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TourismReserve.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TourismReserve.Microsoft.AspNetCore.StaticWebAssets.props",
