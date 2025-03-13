@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TourismReserve.BL.External_Service;
 using TourismReserve.BL.Services.Implements;
 using TourismReserve.BL.Services.Interfaces;
 
@@ -18,6 +19,8 @@ namespace TourismReserve.BL
             services.AddScoped<ITourPackageService, TourPacakgeService>();
             services.AddScoped<IUserImageService, UserImageService>();
             services.AddScoped<IReservationServcie, ReservationService>();
+            services.AddScoped<IStripeService, StripeService>();
+            services.AddScoped<IChechOutService, CheckOutService>();
             return services;
         }
         public static IServiceCollection AddAutoMapper(this IServiceCollection services)

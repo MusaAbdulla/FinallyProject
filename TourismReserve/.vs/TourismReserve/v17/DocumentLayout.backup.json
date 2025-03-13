@@ -7,21 +7,72 @@
       "RelativeMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|solutionrelative:views\\tour\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|solutionrelative:views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|solutionrelative:views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|solutionrelative:controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve\\controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|solutionrelative:controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E9CCAF2-E558-4B02-8150-34DBFA046550}|..\\TourismRserve.DAL\\TourismRserve.DAL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismrserve.dal\\migrations\\20250311223547_sdkdsdss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D715AE33-1AD4-44F9-AE0C-B3CDA015AD5D}|..\\TourismReserve.BL\\TourismReserve.BL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve.bl\\external service\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D715AE33-1AD4-44F9-AE0C-B3CDA015AD5D}|..\\TourismReserve.BL\\TourismReserve.BL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve.bl\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9CCAF2-E558-4B02-8150-34DBFA046550}|..\\TourismRserve.DAL\\TourismRserve.DAL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismrserve.dal\\serviceregistrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D715AE33-1AD4-44F9-AE0C-B3CDA015AD5D}|..\\TourismReserve.BL\\TourismReserve.BL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve.bl\\profiles\\checkoutprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D715AE33-1AD4-44F9-AE0C-B3CDA015AD5D}|..\\TourismReserve.BL\\TourismReserve.BL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve.bl\\external service\\ichechoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250313083352_jdjdjdk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D715AE33-1AD4-44F9-AE0C-B3CDA015AD5D}|..\\TourismReserve.BL\\TourismReserve.BL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve.bl\\viewmodels\\check\\checkoutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9CCAF2-E558-4B02-8150-34DBFA046550}|..\\TourismRserve.DAL\\TourismRserve.DAL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismrserve.dal\\repositories\\countryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D715AE33-1AD4-44F9-AE0C-B3CDA015AD5D}|..\\TourismReserve.BL\\TourismReserve.BL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve.bl\\viewmodels\\check\\updatestatusvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D715AE33-1AD4-44F9-AE0C-B3CDA015AD5D}|..\\TourismReserve.BL\\TourismReserve.BL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve.bl\\external service\\istripeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250313080758_jdjdjd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF06CE0-F77F-42BF-9418-CB761E56BBE2}|..\\TourismReserve.Core\\TourismReserve.Core.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve.core\\models\\commons\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E9CCAF2-E558-4B02-8150-34DBFA046550}|..\\TourismRserve.DAL\\TourismRserve.DAL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismrserve.dal\\context\\tourismdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D715AE33-1AD4-44F9-AE0C-B3CDA015AD5D}|..\\TourismReserve.BL\\TourismReserve.BL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve.bl\\external service\\stripeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BBF06CE0-F77F-42BF-9418-CB761E56BBE2}|..\\TourismReserve.Core\\TourismReserve.Core.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve.core\\models\\commons\\packagecomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|solutionrelative:views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9CCAF2-E558-4B02-8150-34DBFA046550}|..\\TourismRserve.DAL\\TourismRserve.DAL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismrserve.dal\\migrations\\20250311223547_sdkdsdss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve\\views\\home\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -77,14 +128,7 @@
       "RelativeMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D715AE33-1AD4-44F9-AE0C-B3CDA015AD5D}|..\\TourismReserve.BL\\TourismReserve.BL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve.bl\\services\\implements\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBF06CE0-F77F-42BF-9418-CB761E56BBE2}|..\\TourismReserve.Core\\TourismReserve.Core.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve.core\\models\\commons\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BBF06CE0-F77F-42BF-9418-CB761E56BBE2}|..\\TourismReserve.Core\\TourismReserve.Core.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve.core\\models\\commons\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -98,12 +142,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve\\areas\\admin\\views\\tourpackage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|solutionrelative:areas\\admin\\views\\tourpackage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E9CCAF2-E558-4B02-8150-34DBFA046550}|..\\TourismRserve.DAL\\TourismRserve.DAL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismrserve.dal\\serviceregistrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D715AE33-1AD4-44F9-AE0C-B3CDA015AD5D}|..\\TourismReserve.BL\\TourismReserve.BL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve.bl\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismreserve\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -315,9 +353,6 @@
       "RelativeMoniker": "D:0:0:{B6F6E615-D68E-40AC-A59F-79BA0BAD58CA}|TourismReserve.csproj|solutionrelative:areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E9CCAF2-E558-4B02-8150-34DBFA046550}|..\\TourismRserve.DAL\\TourismRserve.DAL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismrserve.dal\\repositories\\countryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1E9CCAF2-E558-4B02-8150-34DBFA046550}|..\\TourismRserve.DAL\\TourismRserve.DAL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismrserve.dal\\repositories\\sliderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -404,6 +439,24 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E9CCAF2-E558-4B02-8150-34DBFA046550}|..\\TourismRserve.DAL\\TourismRserve.DAL.csproj|c:\\users\\sheki-komp\\desktop\\finally project\\tourismrserve.dal\\migrations\\20250311221542_sdkdsd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\AppUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\AuditableEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Repositories\\CheckOutRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Repositories\\ICheckOutRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Enums\\DeliveryStatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\CheckOut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -413,7 +466,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 26,
           "Children": [
             {
               "$type": "Bookmark",
@@ -429,7 +482,212 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Views\\CheckOut\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CheckOut\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Views\\CheckOut\\Index.cshtml",
+              "RelativeToolTip": "Views\\CheckOut\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T09:37:04.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CheckOutController.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Controllers\\CheckOutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CheckOutController.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Controllers\\CheckOutController.cs",
+              "RelativeToolTip": "Controllers\\CheckOutController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:38:52.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250313083352_jdjdjdk.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250313083352_jdjdjdk.cs",
+              "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250313083352_jdjdjdk.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250313083352_jdjdjdk.cs",
+              "RelativeToolTip": "..\\TourismRserve.DAL\\Migrations\\20250313083352_jdjdjdk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:33:52.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 136,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\AppUser.cs",
+              "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Models\\Commons\\AppUser.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\AppUser.cs",
+              "RelativeToolTip": "..\\TourismReserve.Core\\Models\\Commons\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:29:19.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 137,
+              "Title": "AuditableEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\AuditableEntity.cs",
+              "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Models\\Commons\\AuditableEntity.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\AuditableEntity.cs",
+              "RelativeToolTip": "..\\TourismReserve.Core\\Models\\Commons\\AuditableEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:28:49.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 138,
+              "Title": "CheckOutRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Repositories\\CheckOutRepository.cs",
+              "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Repositories\\CheckOutRepository.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Repositories\\CheckOutRepository.cs",
+              "RelativeToolTip": "..\\TourismRserve.DAL\\Repositories\\CheckOutRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAIwDUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:16:04.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 139,
+              "Title": "ICheckOutRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Repositories\\ICheckOutRepository.cs",
+              "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Repositories\\ICheckOutRepository.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Repositories\\ICheckOutRepository.cs",
+              "RelativeToolTip": "..\\TourismReserve.Core\\Repositories\\ICheckOutRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:14:35.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CheckOutProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Profiles\\CheckOutProfile.cs",
+              "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Profiles\\CheckOutProfile.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Profiles\\CheckOutProfile.cs",
+              "RelativeToolTip": "..\\TourismReserve.BL\\Profiles\\CheckOutProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:12:22.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CheckOutService.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\External Service\\CheckOutService.cs",
+              "RelativeDocumentMoniker": "..\\TourismReserve.BL\\External Service\\CheckOutService.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\External Service\\CheckOutService.cs",
+              "RelativeToolTip": "..\\TourismReserve.BL\\External Service\\CheckOutService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:10:52.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdateStatusVM.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\Check\\UpdateStatusVM.cs",
+              "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\Check\\UpdateStatusVM.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\Check\\UpdateStatusVM.cs",
+              "RelativeToolTip": "..\\TourismReserve.BL\\ViewModels\\Check\\UpdateStatusVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:09:11.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250313080758_jdjdjd.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250313080758_jdjdjd.cs",
+              "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250313080758_jdjdjd.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250313080758_jdjdjd.cs",
+              "RelativeToolTip": "..\\TourismRserve.DAL\\Migrations\\20250313080758_jdjdjd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:07:59.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 140,
+              "Title": "DeliveryStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Enums\\DeliveryStatus.cs",
+              "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Enums\\DeliveryStatus.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Enums\\DeliveryStatus.cs",
+              "RelativeToolTip": "..\\TourismReserve.Core\\Enums\\DeliveryStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:04:50.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 141,
+              "Title": "CheckOut.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\CheckOut.cs",
+              "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Models\\Commons\\CheckOut.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\CheckOut.cs",
+              "RelativeToolTip": "..\\TourismReserve.Core\\Models\\Commons\\CheckOut.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T07:57:44.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CheckOutVM.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\Check\\CheckOutVM.cs",
+              "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\Check\\CheckOutVM.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\Check\\CheckOutVM.cs",
+              "RelativeToolTip": "..\\TourismReserve.BL\\ViewModels\\Check\\CheckOutVM.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA9wBoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T07:56:38.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IChechOutService.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\External Service\\IChechOutService.cs",
+              "RelativeDocumentMoniker": "..\\TourismReserve.BL\\External Service\\IChechOutService.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\External Service\\IChechOutService.cs",
+              "RelativeToolTip": "..\\TourismReserve.BL\\External Service\\IChechOutService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T07:54:53.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IStripeService.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\External Service\\IStripeService.cs",
+              "RelativeDocumentMoniker": "..\\TourismReserve.BL\\External Service\\IStripeService.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\External Service\\IStripeService.cs",
+              "RelativeToolTip": "..\\TourismReserve.BL\\External Service\\IStripeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T07:53:09.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StripeService.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\External Service\\StripeService.cs",
+              "RelativeDocumentMoniker": "..\\TourismReserve.BL\\External Service\\StripeService.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\External Service\\StripeService.cs",
+              "RelativeToolTip": "..\\TourismReserve.BL\\External Service\\StripeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T07:17:08.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "20250311223547_sdkdsdss.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250311223547_sdkdsdss.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250311223547_sdkdsdss.cs",
@@ -437,12 +695,11 @@
               "RelativeToolTip": "..\\TourismRserve.DAL\\Migrations\\20250311223547_sdkdsdss.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T22:35:47.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T22:35:47.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 135,
               "Title": "20250311221542_sdkdsd.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250311221542_sdkdsd.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250311221542_sdkdsd.cs",
@@ -454,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 134,
               "Title": "20250310195021_sksksks.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250310195021_sksksks.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250310195021_sksksks.cs",
@@ -466,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 24,
               "Title": "Microsoft.CSharp.Core.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.CSharp.Core.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.CSharp.Core.targets",
@@ -478,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 25,
               "Title": "CommentConf.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Configurations\\CommentConfigurations\\CommentConf.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Configurations\\CommentConfigurations\\CommentConf.cs",
@@ -490,13 +747,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "PackageComment.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\PackageComment.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Models\\Commons\\PackageComment.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\PackageComment.cs",
               "RelativeToolTip": "..\\TourismReserve.Core\\Models\\Commons\\PackageComment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T19:12:26.378Z"
             },
@@ -508,14 +765,14 @@
               "RelativeDocumentMoniker": "Views\\Tour\\Details.cshtml",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Views\\Tour\\Details.cshtml*",
               "RelativeToolTip": "Views\\Tour\\Details.cshtml*",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAswHYAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAG8BAAAAAAAAAAAswIUBAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-09T21:51:39.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 20,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Views\\Home\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Details.cshtml",
@@ -523,12 +780,11 @@
               "RelativeToolTip": "Views\\Home\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T21:00:38.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T21:00:38.468Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -540,7 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 29,
               "Title": "20250223192250_asxlaju.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250223192250_asxlaju.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250223192250_asxlaju.cs",
@@ -552,7 +808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 27,
               "Title": "TourPackageConfigurations.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Configurations\\TourPackageConf\\TourPackageConfigurations.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Configurations\\TourPackageConf\\TourPackageConfigurations.cs",
@@ -564,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 31,
               "Title": "TourPackageCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\TourPackageVM\\TourPackageCreateVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\TourPackageVM\\TourPackageCreateVM.cs",
@@ -576,7 +832,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 33,
               "Title": "CountryCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\CountryVM\\CountryCreateVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\CountryVM\\CountryCreateVM.cs",
@@ -588,7 +844,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 32,
               "Title": "SlideCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\SlideVM\\SlideCreateVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\SlideVM\\SlideCreateVM.cs",
@@ -600,7 +856,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 34,
               "Title": "ReservationCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\ReservationVM\\ReservationCreateVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\ReservationVM\\ReservationCreateVM.cs",
@@ -612,32 +868,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T21:06:54.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TourController.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Controllers\\TourController.cs",
               "RelativeDocumentMoniker": "Controllers\\TourController.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Controllers\\TourController.cs",
               "RelativeToolTip": "Controllers\\TourController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAADwvy8AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAywEwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T13:30:05.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T13:30:05.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 133,
               "Title": "20250223191347_asxla.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250223191347_asxla.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250223191347_asxla.cs",
@@ -649,7 +904,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 132,
               "Title": "20250223110305_ssdsds.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250223110305_ssdsds.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250223110305_ssdsds.cs",
@@ -661,7 +916,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 37,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -673,7 +928,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 35,
               "Title": "Reservation.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\Reservation.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Models\\Commons\\Reservation.cs",
@@ -685,7 +940,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 36,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Areas\\Admin\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewStart.cshtml",
@@ -697,7 +952,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 38,
               "Title": "ReservationService.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Services\\Implements\\ReservationService.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Services\\Implements\\ReservationService.cs",
@@ -709,7 +964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 26,
               "Title": "ReservationConfigurations.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Configurations\\ReservationConf\\ReservationConfigurations.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Configurations\\ReservationConf\\ReservationConfigurations.cs",
@@ -721,7 +976,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 16,
               "Title": "Country.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\Country.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Models\\Commons\\Country.cs",
@@ -733,7 +988,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 28,
               "Title": "TourPackage.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\TourPackage.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Models\\Commons\\TourPackage.cs",
@@ -745,7 +1000,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 120,
               "Title": "20250222232655_HSsASAJHUFFhgy.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250222232655_HSsASAJHUFFhgy.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250222232655_HSsASAJHUFFhgy.cs",
@@ -757,19 +1012,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "TourismDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Context\\TourismDbContext.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Context\\TourismDbContext.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Context\\TourismDbContext.cs",
               "RelativeToolTip": "..\\TourismRserve.DAL\\Context\\TourismDbContext.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAkwBcAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA8wBcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T21:05:42.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 121,
               "Title": "20250222231753_HSsASAJHUFFjidscdjjuy.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250222231753_HSsASAJHUFFjidscdjjuy.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250222231753_HSsASAJHUFFjidscdjjuy.cs",
@@ -781,7 +1036,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 122,
               "Title": "20250222231204_HSsASAJHUFFjidscdj.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250222231204_HSsASAJHUFFjidscdj.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250222231204_HSsASAJHUFFjidscdj.cs",
@@ -793,7 +1048,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 123,
               "Title": "20250222230701_HSsASAJHUFFjidscd.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250222230701_HSsASAJHUFFjidscd.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250222230701_HSsASAJHUFFjidscd.cs",
@@ -805,7 +1060,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 124,
               "Title": "20250222230517_HSsASAJHUFFji.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250222230517_HSsASAJHUFFji.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250222230517_HSsASAJHUFFji.cs",
@@ -817,7 +1072,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 125,
               "Title": "20250222222922_HSsASAJHUFF.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250222222922_HSsASAJHUFF.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250222222922_HSsASAJHUFF.cs",
@@ -829,7 +1084,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 126,
               "Title": "20250222222846_HSsASAJHU.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250222222846_HSsASAJHU.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250222222846_HSsASAJHU.cs",
@@ -841,7 +1096,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 40,
               "Title": "20250222222715_HSsASA.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250222222715_HSsASA.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250222222715_HSsASA.cs",
@@ -853,7 +1108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 42,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Areas\\Admin\\Views\\TourPackage\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\TourPackage\\Create.cshtml",
@@ -865,7 +1120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 39,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\User.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Models\\Commons\\User.cs",
@@ -877,7 +1132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 127,
               "Title": "20250222221533_HSHAoJSKJjhhjswdsSDSDSDSasa.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250222221533_HSHAoJSKJjhhjswdsSDSDSDSasa.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250222221533_HSHAoJSKJjhhjswdsSDSDSDSasa.cs",
@@ -889,7 +1144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 41,
               "Title": "UserConfigurations.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Configurations\\UserConf\\UserConfigurations.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Configurations\\UserConf\\UserConfigurations.cs",
@@ -901,31 +1156,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 7,
               "Title": "ServiceRegistrations.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\ServiceRegistrations.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\ServiceRegistrations.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\ServiceRegistrations.cs",
               "RelativeToolTip": "..\\TourismRserve.DAL\\ServiceRegistrations.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T22:11:26.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 6,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ServiceRegistration.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ServiceRegistration.cs",
               "RelativeToolTip": "..\\TourismReserve.BL\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBMAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T21:28:43.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 43,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Views\\Auth\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
@@ -937,7 +1192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 44,
               "Title": "CountryService.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Services\\Implements\\CountryService.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Services\\Implements\\CountryService.cs",
@@ -949,7 +1204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 45,
               "Title": "IReservationServcie.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Services\\Interfaces\\IReservationServcie.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Services\\Interfaces\\IReservationServcie.cs",
@@ -961,7 +1216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 46,
               "Title": "ICountryService.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Services\\Interfaces\\ICountryService.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Services\\Interfaces\\ICountryService.cs",
@@ -973,7 +1228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 47,
               "Title": "ReservProfile.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Profiles\\ReservProfile.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Profiles\\ReservProfile.cs",
@@ -985,7 +1240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 128,
               "Title": "20250222213535_HSHAoJSKJjhhjswdsSDSDSDS.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250222213535_HSHAoJSKJjhhjswdsSDSDSDS.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250222213535_HSHAoJSKJjhhjswdsSDSDSDS.cs",
@@ -997,7 +1252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 48,
               "Title": "ReservationUpdateVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\ReservationVM\\ReservationUpdateVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\ReservationVM\\ReservationUpdateVM.cs",
@@ -1009,7 +1264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 49,
               "Title": "ReservationGetVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\ReservationVM\\ReservationGetVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\ReservationVM\\ReservationGetVM.cs",
@@ -1021,7 +1276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 50,
               "Title": "RegisterVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\AuthVM\\RegisterVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\AuthVM\\RegisterVM.cs",
@@ -1033,7 +1288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 129,
               "Title": "20250222213354_HSHAoJSKJjhhjswds.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250222213354_HSHAoJSKJjhhjswds.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250222213354_HSHAoJSKJjhhjswds.cs",
@@ -1045,7 +1300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 130,
               "Title": "20250222213236_HSHAoJSKJjhhj.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250222213236_HSHAoJSKJjhhj.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250222213236_HSHAoJSKJjhhj.cs",
@@ -1057,7 +1312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 131,
               "Title": "20250222212746_HSHAoJSKJ.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250222212746_HSHAoJSKJ.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250222212746_HSHAoJSKJ.cs",
@@ -1069,7 +1324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 51,
               "Title": "LoginVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\AuthVM\\LoginVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\AuthVM\\LoginVM.cs",
@@ -1081,7 +1336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 53,
               "Title": "TourPacakgeService.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Services\\Implements\\TourPacakgeService.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Services\\Implements\\TourPacakgeService.cs",
@@ -1093,7 +1348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 54,
               "Title": "TourPackageController.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Areas\\Admin\\Controllers\\TourPackageController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\TourPackageController.cs",
@@ -1105,7 +1360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 55,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Areas\\Admin\\Views\\TourPackage\\Update.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\TourPackage\\Update.cshtml",
@@ -1117,7 +1372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 52,
               "Title": "HomeVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\Commons\\HomeVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\Commons\\HomeVM.cs",
@@ -1129,7 +1384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 23,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -1141,7 +1396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 56,
               "Title": "SlideServices.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Services\\Implements\\SlideServices.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Services\\Implements\\SlideServices.cs",
@@ -1153,7 +1408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 57,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Areas\\Admin\\Views\\TourPackage\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\TourPackage\\Index.cshtml",
@@ -1165,7 +1420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 60,
               "Title": "SlideProfile.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Profiles\\SlideProfile.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Profiles\\SlideProfile.cs",
@@ -1177,7 +1432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 61,
               "Title": "TourPacakgeProfile.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Profiles\\TourPacakgeProfile.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Profiles\\TourPacakgeProfile.cs",
@@ -1189,7 +1444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 58,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Areas\\Admin\\Views\\Slide\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slide\\Index.cshtml",
@@ -1201,7 +1456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 59,
               "Title": "SlideController.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Areas\\Admin\\Controllers\\SlideController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\SlideController.cs",
@@ -1213,7 +1468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 62,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Areas\\Admin\\Views\\Slide\\Update.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slide\\Update.cshtml",
@@ -1225,7 +1480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 63,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
@@ -1237,7 +1492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 64,
               "Title": "SlideGetVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\SlideVM\\SlideGetVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\SlideVM\\SlideGetVM.cs",
@@ -1249,7 +1504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 65,
               "Title": "Slide.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\Slide.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Models\\Commons\\Slide.cs",
@@ -1261,7 +1516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 66,
               "Title": "TourPackageGetVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\TourPackageVM\\TourPackageGetVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\TourPackageVM\\TourPackageGetVM.cs",
@@ -1273,7 +1528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 67,
               "Title": "UserImageProfile.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Profiles\\UserImageProfile.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Profiles\\UserImageProfile.cs",
@@ -1285,7 +1540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 68,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Profiles\\UserProfile.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Profiles\\UserProfile.cs",
@@ -1297,7 +1552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 69,
               "Title": "CountryProfile.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Profiles\\CountryProfile.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Profiles\\CountryProfile.cs",
@@ -1309,7 +1564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 70,
               "Title": "SeedDataExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Extensions\\SeedDataExtensions.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Extensions\\SeedDataExtensions.cs",
@@ -1321,7 +1576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 74,
               "Title": "UserImageUpdateVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\UserImageVM\\UserImageUpdateVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\UserImageVM\\UserImageUpdateVM.cs",
@@ -1333,7 +1588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 75,
               "Title": "UserImageGetVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\UserImageVM\\UserImageGetVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\UserImageVM\\UserImageGetVM.cs",
@@ -1345,7 +1600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 71,
               "Title": "ISlideServices.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Services\\Interfaces\\ISlideServices.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Services\\Interfaces\\ISlideServices.cs",
@@ -1357,7 +1612,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 73,
               "Title": "UserImageCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\UserImageVM\\UserImageCreateVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\UserImageVM\\UserImageCreateVM.cs",
@@ -1369,7 +1624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 22,
               "Title": "MyProfile.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Views\\Home\\MyProfile.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\MyProfile.cshtml",
@@ -1381,7 +1636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 72,
               "Title": "UserImageService.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Services\\Implements\\UserImageService.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Services\\Implements\\UserImageService.cs",
@@ -1393,7 +1648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 76,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Areas\\Admin\\Views\\Slide\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slide\\Create.cshtml",
@@ -1405,7 +1660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 77,
               "Title": "IUserImageService.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Services\\Interfaces\\IUserImageService.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Services\\Interfaces\\IUserImageService.cs",
@@ -1417,7 +1672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 79,
               "Title": "UserImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Repositories\\UserImageRepository.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Repositories\\UserImageRepository.cs",
@@ -1429,7 +1684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 82,
               "Title": "IUserImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Repositories\\IUserImageRepository.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Repositories\\IUserImageRepository.cs",
@@ -1441,7 +1696,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 78,
               "Title": "UserImage.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\UserImage.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Models\\Commons\\UserImage.cs",
@@ -1453,7 +1708,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 83,
               "Title": "ICountryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Repositories\\ICountryRepository.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Repositories\\ICountryRepository.cs",
@@ -1465,7 +1720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 85,
               "Title": "TourPackageUpdateVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\TourPackageVM\\TourPackageUpdateVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\TourPackageVM\\TourPackageUpdateVM.cs",
@@ -1477,7 +1732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 80,
               "Title": "TourPackageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Repositories\\TourPackageRepository.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Repositories\\TourPackageRepository.cs",
@@ -1489,7 +1744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 81,
               "Title": "ITourPackageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Repositories\\ITourPackageRepository.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Repositories\\ITourPackageRepository.cs",
@@ -1501,7 +1756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 84,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
@@ -1513,7 +1768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 86,
               "Title": "TourPackageImage.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\TourPackageImage.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Models\\Commons\\TourPackageImage.cs",
@@ -1525,7 +1780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 118,
               "Title": "20250212201803_HSHSSBGkjkj.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250212201803_HSHSSBGkjkj.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250212201803_HSHSSBGkjkj.cs",
@@ -1537,7 +1792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 87,
               "Title": "DashBoardController.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Areas\\Admin\\Controllers\\DashBoardController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DashBoardController.cs",
@@ -1549,7 +1804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 119,
               "Title": "20250212201036_HSHSSBG.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250212201036_HSHSSBG.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250212201036_HSHSSBG.cs",
@@ -1561,7 +1816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 88,
               "Title": "20250212200936_HSHSS.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250212200936_HSHSS.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250212200936_HSHSS.cs",
@@ -1572,7 +1827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 89,
               "Title": "20250212200556_HSHS.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250212200556_HSHS.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250212200556_HSHS.cs",
@@ -1583,7 +1838,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 90,
               "Title": "ITourPackageService.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Services\\Interfaces\\ITourPackageService.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Services\\Interfaces\\ITourPackageService.cs",
@@ -1595,7 +1850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 92,
               "Title": "CountryGetVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\CountryVM\\CountryGetVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\CountryVM\\CountryGetVM.cs",
@@ -1607,7 +1862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 91,
               "Title": "CountryUpdateVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\CountryVM\\CountryUpdateVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\CountryVM\\CountryUpdateVM.cs",
@@ -1619,7 +1874,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 93,
               "Title": "FileExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Extensions\\FileExtensions.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Extensions\\FileExtensions.cs",
@@ -1631,7 +1886,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 94,
               "Title": "20250212002102_sjsjs.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250212002102_sjsjs.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250212002102_sjsjs.cs",
@@ -1643,7 +1898,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 96,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Areas\\Admin\\Views\\Country\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Country\\Create.cshtml",
@@ -1655,7 +1910,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 95,
               "Title": "SlideUpdateVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\ViewModels\\SlideVM\\SlideUpdateVM.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\ViewModels\\SlideVM\\SlideUpdateVM.cs",
@@ -1667,7 +1922,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 97,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Areas\\Admin\\Views\\Country\\Update.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Country\\Update.cshtml",
@@ -1679,7 +1934,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 98,
               "Title": "CountryController.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Areas\\Admin\\Controllers\\CountryController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CountryController.cs",
@@ -1691,7 +1946,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 117,
               "Title": "20250211223144_Taba.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250211223144_Taba.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250211223144_Taba.cs",
@@ -1703,7 +1958,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 100,
               "Title": "20250210230953_Tabababa.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250210230953_Tabababa.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250210230953_Tabababa.cs",
@@ -1714,7 +1969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 99,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Views\\Auth\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\Auth\\Register.cshtml",
@@ -1726,7 +1981,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 116,
               "Title": "20250210225508_Tababab.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250210225508_Tababab.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250210225508_Tababab.cs",
@@ -1738,7 +1993,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 101,
               "Title": "RoleExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.BL\\Extensions\\RoleExtensions.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.BL\\Extensions\\RoleExtensions.cs",
@@ -1750,7 +2005,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 102,
               "Title": "Roles.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Enums\\Roles.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Enums\\Roles.cs",
@@ -1762,7 +2017,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 104,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Repositories\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Repositories\\IGenericRepository.cs",
@@ -1774,7 +2029,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 103,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Repositories\\GenericRepository.cs",
@@ -1786,7 +2041,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 105,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Areas\\Admin\\Views\\Country\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Country\\Index.cshtml",
@@ -1798,7 +2053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 106,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewImports.cshtml",
@@ -1810,19 +2065,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 12,
               "Title": "CountryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Repositories\\CountryRepository.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Repositories\\CountryRepository.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Repositories\\CountryRepository.cs",
               "RelativeToolTip": "..\\TourismRserve.DAL\\Repositories\\CountryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T09:39:31.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 107,
               "Title": "SlideRepository.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Repositories\\SlideRepository.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Repositories\\SlideRepository.cs",
@@ -1834,7 +2089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 108,
               "Title": "ReservationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Repositories\\ReservationRepository.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Repositories\\ReservationRepository.cs",
@@ -1846,7 +2101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 109,
               "Title": "ISlideRepository.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Repositories\\ISlideRepository.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Repositories\\ISlideRepository.cs",
@@ -1858,7 +2113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 110,
               "Title": "IReservationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Repositories\\IReservationRepository.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Repositories\\IReservationRepository.cs",
@@ -1870,7 +2125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 111,
               "Title": "20250205221522_Table.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250205221522_Table.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250205221522_Table.cs",
@@ -1882,7 +2137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 112,
               "Title": "SlideConfigurations.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Configurations\\SlideConf\\SlideConfigurations.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Configurations\\SlideConf\\SlideConfigurations.cs",
@@ -1894,7 +2149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 113,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
@@ -1906,7 +2161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 115,
               "Title": "20250204211100_CreateTables.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismRserve.DAL\\Migrations\\20250204211100_CreateTables.cs",
               "RelativeDocumentMoniker": "..\\TourismRserve.DAL\\Migrations\\20250204211100_CreateTables.cs",
@@ -1918,7 +2173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 114,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\Finally Project\\TourismReserve.Core\\Models\\Commons\\BaseEntity.cs",
               "RelativeDocumentMoniker": "..\\TourismReserve.Core\\Models\\Commons\\BaseEntity.cs",

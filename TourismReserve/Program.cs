@@ -42,6 +42,7 @@ namespace TourismReserve
                 opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(1);
 
             }).AddDefaultTokenProviders().AddEntityFrameworkStores<TourismDbContext>();
+
             builder.Services.AddDbContext<TourismDbContext>(opt=>
             {
                 opt.UseSqlServer(builder.Configuration.GetConnectionString("MSsql"));

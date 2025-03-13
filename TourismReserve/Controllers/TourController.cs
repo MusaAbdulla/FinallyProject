@@ -74,6 +74,7 @@ namespace TourismReserve.Controllers
 
             return RedirectToAction(nameof(Details), new { id = packageId });
         }
+     
         [Authorize]
         [HttpPost]
         public async Task<IActionResult> Comment(int? productId, string? comment,string userName)

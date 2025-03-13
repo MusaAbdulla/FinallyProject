@@ -18,6 +18,7 @@ namespace TourismRserve.DAL
             services.AddScoped<IReservationRepository, ReservationRepository>();
             services.AddScoped<ISlideRepository, SlideRepository>();
             services.AddScoped<IUserImageRepository, UserImageRepository>();
+            services.AddScoped<ICheckOutRepository, CheckOutRepository>();
             return services;
         }
     }
