@@ -20,7 +20,6 @@ namespace TourismRserve.DAL.Context
         public DbSet<Slide> Slides { get; set; }
         public DbSet<TourPackage> TourPackages { get; set; }
         public DbSet<Reservation> Reservations { get; set; }
-        public DbSet<Country> Countries { get; set; }
         public DbSet<CheckOut> CheckOuts { get; set; }
         public DbSet<PackageComment> Comments { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

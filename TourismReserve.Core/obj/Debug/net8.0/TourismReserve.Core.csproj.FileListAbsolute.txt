@@ -22,3 +22,16 @@ C:\Users\Sheki-Komp\Desktop\Finally Project\TourismReserve.Core\obj\Debug\net8.0
 C:\Users\Sheki-Komp\Desktop\Finally Project\TourismReserve.Core\obj\Debug\net8.0\TourismReserve.Core.pdb
 C:\Users\Sheki-Komp\Desktop\Finally Project\TourismReserve.Core\obj\Debug\net8.0\ref\TourismReserve.Core.dll
 C:\Users\Sheki-Komp\Desktop\Finally Project\TourismReserve.Core\obj\Debug\net8.0\TourismReserve.Core.csproj.AssemblyReference.cache
+C:\Users\Sheki-Komp\Desktop\HERWEY\Finally Project\TourismReserve.Core\bin\Debug\net8.0\TourismReserve.Core.deps.json
+C:\Users\Sheki-Komp\Desktop\HERWEY\Finally Project\TourismReserve.Core\bin\Debug\net8.0\TourismReserve.Core.dll
+C:\Users\Sheki-Komp\Desktop\HERWEY\Finally Project\TourismReserve.Core\bin\Debug\net8.0\TourismReserve.Core.pdb
+C:\Users\Sheki-Komp\Desktop\HERWEY\Finally Project\TourismReserve.Core\obj\Debug\net8.0\TourismReserve.Core.csproj.AssemblyReference.cache
+C:\Users\Sheki-Komp\Desktop\HERWEY\Finally Project\TourismReserve.Core\obj\Debug\net8.0\TourismReserve.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sheki-Komp\Desktop\HERWEY\Finally Project\TourismReserve.Core\obj\Debug\net8.0\TourismReserve.Core.AssemblyInfoInputs.cache
+C:\Users\Sheki-Komp\Desktop\HERWEY\Finally Project\TourismReserve.Core\obj\Debug\net8.0\TourismReserve.Core.AssemblyInfo.cs
+C:\Users\Sheki-Komp\Desktop\HERWEY\Finally Project\TourismReserve.Core\obj\Debug\net8.0\TourismReserve.Core.csproj.CoreCompileInputs.cache
+C:\Users\Sheki-Komp\Desktop\HERWEY\Finally Project\TourismReserve.Core\obj\Debug\net8.0\TourismReserve.Core.sourcelink.json
+C:\Users\Sheki-Komp\Desktop\HERWEY\Finally Project\TourismReserve.Core\obj\Debug\net8.0\TourismReserve.Core.dll
+C:\Users\Sheki-Komp\Desktop\HERWEY\Finally Project\TourismReserve.Core\obj\Debug\net8.0\refint\TourismReserve.Core.dll
+C:\Users\Sheki-Komp\Desktop\HERWEY\Finally Project\TourismReserve.Core\obj\Debug\net8.0\TourismReserve.Core.pdb
+C:\Users\Sheki-Komp\Desktop\HERWEY\Finally Project\TourismReserve.Core\obj\Debug\net8.0\ref\TourismReserve.Core.dll

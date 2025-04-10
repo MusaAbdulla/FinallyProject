@@ -12,8 +12,7 @@ namespace TourismRserve.DAL
     public static class ServiceRegistrations
     {
         public static IServiceCollection AddRepositories(this IServiceCollection services)
-        {
-            services.AddScoped<ICountryRepository, CountryRepository>();
+        {;
             services.AddScoped<ITourPackageRepository, TourPackageRepository>();
             services.AddScoped<IReservationRepository, ReservationRepository>();
             services.AddScoped<ISlideRepository, SlideRepository>();

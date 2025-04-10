@@ -1,15 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TourismReserve.BL.Extensions;
+using TourismReserve.BL.Helper;
 using TourismReserve.BL.Services.Interfaces;
-using TourismReserve.BL.ViewModels.CountryVM;
 using TourismReserve.BL.ViewModels.SlideVM;
 using TourismRserve.DAL.Context;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TourismReserve.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area("Admin"), Authorize(Roles = RoleConstant.Musa)]
     public class SlideController(ISlideServices _service, TourismDbContext _context) : Controller
     {
         public async Task<IActionResult> Index()

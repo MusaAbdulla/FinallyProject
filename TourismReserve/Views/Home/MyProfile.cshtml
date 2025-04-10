@@ -9,29 +9,11 @@
 
         <div class="sidebar-dashboard">
             <div class="db-logo">
-                <a href="index.html"><img src="assets/images/favico.png" alt="Logo"><span>Vitour</span></a>
+                <a asp-action="Index" asp-controller="Home"> ><span>Vitour</span></a>
             </div>
             <div class="db-menu">
                 <ul>
-                    <li>
-                        <a href="my-booking.html">
-                            <i class="icon-Layer-2"></i>
-                            <span>My Booking</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="my-listing.html">
-                            <i class="icon-Group-81"></i>
-                            <span>My Listing</span>
-                        </a>
-                    </li>
-
-                    <li class="active">
-                        <a href="my-profile.html">
-                            <i class="icon-profile-user-1"></i>
-                            <span>My Profile</span>
-                        </a>
-                    </li>
+                    
                     <li>
                         <a asp-action="Logout" asp-controller="Auth">
                             <i class="icon-turn-off-1"></i>

@@ -50,7 +50,13 @@ namespace TourismReserve
             builder.Services.AddRepositories();
             builder.Services.AddService();
             builder.Services.AddAutoMapper();
+            builder.Services.ConfigureApplicationCookie(x =>
+            {
+                x.LoginPath = "/login";
 
+                x.AccessDeniedPath = "/Home/AccessDenied";
+
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

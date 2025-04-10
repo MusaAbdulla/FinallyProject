@@ -30,7 +30,7 @@ namespace TourismReserve.Controllers
             {
                 Id = x.Id,
                 CoverImage = x.CoverImage,
-                DisCount = x.DisCount,
+          
                 SellPrice = x.SellPrice,
                 Name = x.Name,
                 Location = x.Location,

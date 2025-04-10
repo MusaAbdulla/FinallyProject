@@ -23,7 +23,7 @@ namespace TourismReserve.BL.ViewModels.TourPackageVM
         public int DisCount { get; set; }
         public int CostPrice { get; set; }
         public int SellPrice { get; set; }
-        public Country Country { get; set; }
-        public int CountryId { get; set; }
+
+    
     }
 }

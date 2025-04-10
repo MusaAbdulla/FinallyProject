@@ -150,7 +150,7 @@
                                                 <div class="inner-price">
                                                     
                                                     <p class="price-sale text-main">
-                                                        $@(Model.SellPrice - Model.SellPrice * Model.DisCount / 100) <span class="price">$@Model.SellPrice</span>
+                                                         <span class="price">$@Model.SellPrice</span>
                                                     </p>
                                                 </div>
 
@@ -221,14 +221,7 @@
                                                 <div class="expect-wrap mb-70">
                                                     <h4 class="title mb-18">What to Expect</h4>
                       
-                                                    <div class="expect flex-three">
-                                                        <span>Departure Time</span>
-                                                        <p>@Model.DepartureTime</p>
-                                                    </div>
-                                                    <div class="expect flex-three">
-                                                        <span>Return Time</span>
-                                                        <p>@Model.ReturnTime</p>
-                                                    </div>
+                                                   
                                                    
                                                 </div>
                                                 <form asp-action="Comment" id="form-review">
@@ -239,7 +232,7 @@
                                                                 @foreach (var item in Model.Comments)
                                                                 {
                                                                 <p>
-                                                                        @item.UserName
+                                                                       
                                                                         @item.CreatedTime
                                                                         @item.Comment
                                                                 </p>

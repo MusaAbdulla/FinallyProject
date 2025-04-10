@@ -14,7 +14,7 @@ namespace TourismReserve.BL
     {
         public static IServiceCollection AddService(this IServiceCollection services)
         {
-            services.AddScoped<ICountryService, CountryService>();
+         
             services.AddScoped<ISlideServices, SlideServices>();
             services.AddScoped<ITourPackageService, TourPacakgeService>();
             services.AddScoped<IUserImageService, UserImageService>();

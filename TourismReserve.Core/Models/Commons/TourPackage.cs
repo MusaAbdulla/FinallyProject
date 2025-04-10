@@ -14,14 +14,8 @@ namespace TourismReserve.Core.Models.Commons
         public string Name { get; set; }
         public string Description { get; set; }
         public int Day { get; set; }
-        public DateTime DepartureTime { get; set; }
-        public DateTime ReturnTime { get; set; }
         public int Person { get; set; }
-        public int DisCount { get; set; }
-        public int CostPrice { get; set; }
         public int SellPrice { get; set; }
-        public Country Country { get; set; }
-        public int CountryId { get; set; }
         public ICollection<TourPackageImage> Images { get; set; }
         public ICollection<Reservation> Reservations { get; set; }
         public ICollection<PackageComment> Comments { get; set; }

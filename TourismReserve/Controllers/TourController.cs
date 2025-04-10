@@ -24,12 +24,10 @@ namespace TourismReserve.Controllers
             {
                 Id = x.Id,
                 CoverImage = x.CoverImage,
-                DisCount = x.DisCount,
+            
                 OtherImages=x.OtherImages,
                 SellPrice = x.SellPrice,
                 Name = x.Name,
-                DepartureTime = x.DepartureTime,
-                ReturnTime  = x.ReturnTime,
                 Description = x.Description,
                 Location = x.Location,
                 Day = x.Day,

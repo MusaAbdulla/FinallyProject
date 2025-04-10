@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TourismReserve.BL.Extensions;
+using TourismReserve.BL.Helper;
 using TourismReserve.BL.Services.Interfaces;
 using TourismReserve.BL.ViewModels.SlideVM;
 using TourismReserve.BL.ViewModels.TourPackageVM;
@@ -9,16 +11,16 @@ using TourismRserve.DAL.Context;
 
 namespace TourismReserve.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area("Admin"), Authorize(Roles = RoleConstant.Musa)]
     public class TourPackageController(ITourPackageService _service,IWebHostEnvironment _env, TourismDbContext _context) : Controller
     {
         public async Task<IActionResult> Index()
         {
-            return View(await _context.TourPackages.Include(x=> x.Country).ToListAsync());
+            return View(await _context.TourPackages.ToListAsync());
         }
         public async Task<IActionResult> Create()
         {
-            ViewBag.Categories = await _context.Countries.Where(x => !x.IsDeleted).ToListAsync();
+         
             return View();
         }
         [HttpPost]
@@ -52,24 +54,13 @@ namespace TourismReserve.Areas.Admin.Controllers
                     ModelState.AddModelError("OtherImages", fileNames + " is (are) bigger than 400kb");
                 }
             }
-            if (!ModelState.IsValid)
-            {
-                ViewBag.Categories = await _context.Countries.Where(x => !x.IsDeleted).ToListAsync();
-                return View(vm);
-            }
-            if (!await _context.Countries.AnyAsync(x => x.Id == vm.CountryId))
-            {
-                ViewBag.Categories = await _context.Countries.Where(x => !x.IsDeleted).ToListAsync();
-                ModelState.AddModelError("CountryId", "Country not found");
-                return View();
-            }
+          
           
             await _service.CreateAsync(vm);
             return RedirectToAction("Index");
         }
         public async Task<IActionResult> Update(int? id)
         {
-            ViewBag.Categories = await _context.Countries.Where(x => !x.IsDeleted).ToListAsync();
             return View();
         }
         [HttpPost]
@@ -103,17 +94,7 @@ namespace TourismReserve.Areas.Admin.Controllers
                     ModelState.AddModelError("OtherImages", fileNames + " is (are) bigger than 400kb");
                 }
             }
-            if (!ModelState.IsValid)
-            {
-                ViewBag.Categories = await _context.Countries.Where(x => !x.IsDeleted).ToListAsync();
-                return View(vm);
-            }
-            if (!await _context.Countries.AnyAsync(x => x.Id == vm.CountryId))
-            {
-                ViewBag.Categories = await _context.Countries.Where(x => !x.IsDeleted).ToListAsync();
-                ModelState.AddModelError("CountryId", "Country not found");
-                return View();
-            }
+          
             await _service.UpdateAsync(vm, id);
             return RedirectToAction("Index");
         }

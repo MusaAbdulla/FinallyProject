@@ -35,7 +35,7 @@ namespace TourismReserve.Controllers
                 }
                 return View();
             }
-            var resultt = await _userManager.AddToRoleAsync(u, nameof(Roles.User));
+            var resultt = await _userManager.AddToRoleAsync(u, nameof(Roles.Moderator));
             if(!resultt.Succeeded)
             {
                 foreach (var item in resultt.Errors)
@@ -60,7 +60,7 @@ namespace TourismReserve.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Login(LoginVM vm, string? l)
+        public async Task<IActionResult> Login(LoginVM vm,  string? returnUrl = null)
         {
             if (IsAuthenticated) return RedirectToAction("Index", "Home");
 
@@ -90,7 +90,14 @@ namespace TourismReserve.Controllers
                 }
                 return View();
             }
+            if (string.IsNullOrEmpty(returnUrl))
+                if (await _userManager.IsInRoleAsync(user, "Admin"))
+                {
+                    return RedirectToAction("Index", new { Controller = "DashBoard", Area = "Admin" });
+                }
             return RedirectToAction("Index", "Home");
+            return LocalRedirect(returnUrl);
+          
           
         }
         [Authorize]

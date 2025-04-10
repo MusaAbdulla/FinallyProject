@@ -230,30 +230,6 @@ namespace TourismRserve.DAL.Migrations
                     b.ToTable("CheckOuts");
                 });
 
-            modelBuilder.Entity("TourismReserve.Core.Models.Commons.Country", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CreatedTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Countries");
-                });
-
             modelBuilder.Entity("TourismReserve.Core.Models.Commons.PackageComment", b =>
                 {
                     b.Property<int>("Id")
@@ -369,12 +345,6 @@ namespace TourismRserve.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CostPrice")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CountryId")
-                        .HasColumnType("int");
-
                     b.Property<string>("CoverImage")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -385,16 +355,10 @@ namespace TourismRserve.DAL.Migrations
                     b.Property<int>("Day")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("DepartureTime")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
-
-                    b.Property<int>("DisCount")
-                        .HasColumnType("int");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -415,15 +379,10 @@ namespace TourismRserve.DAL.Migrations
                     b.Property<int>("Person")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("ReturnTime")
-                        .HasColumnType("datetime2");
-
                     b.Property<int>("SellPrice")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CountryId");
 
                     b.ToTable("TourPackages");
                 });
@@ -633,17 +592,6 @@ namespace TourismRserve.DAL.Migrations
                     b.Navigation("TourPackage");
                 });
 
-            modelBuilder.Entity("TourismReserve.Core.Models.Commons.TourPackage", b =>
-                {
-                    b.HasOne("TourismReserve.Core.Models.Commons.Country", "Country")
-                        .WithMany("TourPackages")
-                        .HasForeignKey("CountryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Country");
-                });
-
             modelBuilder.Entity("TourismReserve.Core.Models.Commons.TourPackageImage", b =>
                 {
                     b.HasOne("TourismReserve.Core.Models.Commons.TourPackage", "TourPackage")
@@ -653,11 +601,6 @@ namespace TourismRserve.DAL.Migrations
                         .IsRequired();
 
                     b.Navigation("TourPackage");
-                });
-
-            modelBuilder.Entity("TourismReserve.Core.Models.Commons.Country", b =>
-                {
-                    b.Navigation("TourPackages");
                 });
 
             modelBuilder.Entity("TourismReserve.Core.Models.Commons.TourPackage", b =>
